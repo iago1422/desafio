@@ -1,0 +1,21 @@
+[
+    {
+      "description": "Criar Login",
+      "responsable": "bruno",
+      "status": "done",
+      "computer": ""
+    },
+    {
+      "description": "Criar Menu",
+      "responsable": "bruno",
+      "status": "doing",
+      "computer": ""
+    },
+    {
+      "description": "Criar tela de perfil",
+      "responsable": "bruno",
+      "status": "todo",
+      "computer": ""
+    }
+]
+  

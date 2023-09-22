@@ -1,0 +1,11 @@
+# Arquivos temporários
+*.tmp
+
+# Arquivos de log
+*.log
+
+# Diretório de node_modules
+node_modules/
+
+# Arquivo de credenciais Firebase
+#config/firebase-credentials.json
