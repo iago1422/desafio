@@ -9,7 +9,7 @@ Este é um sistema de gerenciamento de tarefas simples que permite inserir e lis
 
 ## Instalação
 
-1. Clone o repositório para o seu computador:
+1. Clone o repositório para o seu computador: https://github.com/iago1422/desafio.git
 
 
 2. Navegue até o diretório do projeto: cd desafio-clinicorp
