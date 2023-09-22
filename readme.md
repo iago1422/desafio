@@ -4,7 +4,7 @@ Este é um sistema de gerenciamento de tarefas simples que permite inserir e lis
 
 ## Pré-requisitos
 
-- Node.js instalado (v14 ou superior)
+- Node.js instalado (v18 ou superior)
 - Firebase Firestore configurado com as credenciais apropriadas (consulte a seção de Configuração)
 
 ## Instalação
