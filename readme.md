@@ -88,7 +88,10 @@ GET - Task
 
 > curl --location 'http://localhost:3000/tasks'
 
+### Testes
 
+Para rodar os testes utilize o seguinte comando:
+> npm test
 
 ### Util
 
