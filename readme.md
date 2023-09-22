@@ -17,7 +17,7 @@ Este é um sistema de gerenciamento de tarefas simples que permite inserir e lis
 
 3. Instale as dependências:
 
-npm install
+> npm install
 
 
 ## Configuração
@@ -35,7 +35,7 @@ Para inicializar, você pode usar o seguinte comando:
 
 Para inserir tarefas, você pode usar o seguinte comando:
 
-tmanager insert --input "JSON ou Caminho do arquivo JSON"
+> tmanager insert --input "JSON ou Caminho do arquivo JSON"
 
 Exemplo:
 
@@ -48,7 +48,7 @@ Exemplo:
 
 Para listar todas as tarefas, você pode usar o seguinte comando:
 
-tmanager show
+> tmanager show
 
 
 ### Para rodar a API express
@@ -64,29 +64,29 @@ Ela retornará a porta que o servidor está escutando.
 
 POST - Task
 
-curl --location 'http://localhost:3000/tasks' \
---header 'Content-Type: application/json' \
---data '[
-    {
-        "description": "Criar Login",
-        "responsable": "bruno",
-        "status": "done"
-    },
-    {
-        "description": "Criar Menu",
-        "responsable": "bruno",
-        "status": "doing"
-    },
-    {
-        "description": "Criar tela de perfil",
-        "responsable": "bruno",
-        "status": "todo"
-    }
-]'
+> curl --location 'http://localhost:3000/tasks' \
+> --header 'Content-Type: application/json' \
+> --data '[
+>    {
+>        "description": "Criar Login",
+>        "responsable": "bruno",
+>        "status": "done"
+>    },
+>    {
+>        "description": "Criar Menu",
+>        "responsable": "bruno",
+>        "status": "doing"
+>    },
+>    {
+>        "description": "Criar tela de perfil",
+>        "responsable": "bruno",
+>        "status": "todo"
+>    }
+> ]'
 
 GET - Task
 
-curl --location 'http://localhost:3000/tasks'
+> curl --location 'http://localhost:3000/tasks'
 
 
 
@@ -97,7 +97,7 @@ Caso ocorra problema com permissões ao tentar executar os comandos "tmanager", 
 Permissões 
 
 Para windows
-Set-ExecutionPolicy RemoteSigned
+> Set-ExecutionPolicy RemoteSigned
 
 Para Mac
-chmod +x tmanager.js
+> chmod +x tmanager.js
